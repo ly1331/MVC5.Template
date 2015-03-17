@@ -1,8 +1,10 @@
 ﻿using System.Reflection;
 using System.Resources;
 using System.Runtime.InteropServices;
+using Xunit;
 
 [assembly: ComVisible(false)]
+[assembly: CollectionBehavior(DisableTestParallelization = true)]
 [assembly: AssemblyTitle("MvcTemplate.Tests")]
 [assembly: AssemblyProduct("MvcTemplate.Tests")]
 [assembly: AssemblyCompany("NonFactors")]
